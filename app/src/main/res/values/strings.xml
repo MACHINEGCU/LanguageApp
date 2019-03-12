@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Honours_proj</string>
+
+    <string name="title_activity_trial">trial</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="spanishflag">spanishFlag</string>
+    <string name="germanflag">GermanFlag</string>
+    <string name="frenchflag">FrenchFlag</string>
+    <string name="britishflag">BritishFlag</string>
+    <string name="title_activity_category_screen">CategoryScreen</string>
+    <string name="title_activity_language">LanguageActivity</string>
+    <string name="title_activity_category">CategoryActivity</string>
+</resources>

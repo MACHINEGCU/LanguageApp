@@ -1,0 +1,394 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/dylanwright/git/utdHonours/mhairi-firebase/honours_proj/Honours_proj/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /home/dylanwright/git/utdHonours/mhairi-firebase/honours_proj/Honours_proj/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /home/dylanwright/git/utdHonours/mhairi-firebase/honours_proj/Honours_proj/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /home/dylanwright/git/utdHonours/mhairi-firebase/honours_proj/Honours_proj/app/src/main/AndroidManifest.xml:2:1-34:12
+MERGED from [com.android.support:design:27.1.1] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/2de547f5142b5fff75ab40cd6d90e611/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/3af9a9b3b00337cc2dbae24c2b8fc4c4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/233eb66b6f7b4329207e69856cc26704/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-database:16.1.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-database-16.1.0.aar/543ce747cf3e8e20cf8711eaab3a1fc8/AndroidManifest.xml:15:1-36:12
+MERGED from [com.google.firebase:firebase-core:16.0.7] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.7.aar/1873cf31a8f4a4b7749d4f0b0fe03afd/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.5] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.5.aar/2ee3cf66d07467c6ad0ebb7aa9752f23/AndroidManifest.xml:17:1-34:12
+MERGED from [com.google.firebase:firebase-analytics:16.3.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.3.0.aar/6ce2593c0f7499d1815f0608667b2215/AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.android.gms:play-services-measurement-api:16.3.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-16.3.0.aar/1b9df105e048b525e3f5ef7b6d11f032/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.firebase:firebase-analytics-impl:16.3.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.3.0.aar/80f8b6c15cefb0e400753201a85539e8/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/847230cbe168f7622131eb82f9c43612/AndroidManifest.xml:17:1-59:12
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.1.aar/28792dac59b3b04a23b4867b1fc508f9/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/39925e5c7a9e5a9c4472091215789007/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-common:16.1.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-common-16.1.0.aar/7f7f0680830ee0efa20f513d2cd81678/AndroidManifest.xml:2:1-19:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/70ebd265a82fd0cb158af7c50716213c/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-base:16.3.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.3.0.aar/2dda26b149fd4e169dd46977d08f474b/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/682d2224582bec5de1ee618ec4960a42/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-17.0.1.aar/25c2f05988d5c5385f3608988c65975a/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-16.0.0.aar/3f1f90ef195c46ae030b13c714a70734/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/2f1c0fc569fac881c7c3c7df94914214/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:27.1.1] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/2b0db71eb0cdd352165d7f0c94674116/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.volley:volley:1.1.1] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/volley-1.1.1.aar/6133e36ab85c87a2827ba989a4b4f18a/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:27.1.1] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/dc6f46b9238c68cb5e0ee7c243cdb47d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/534e81612af969fec406419505176e4d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/66591d8b31cf9a6dede96fce8e41118f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/32cce69c80c4aa71252f1018f7f4ffee/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/8fede695b9ea0734d7e22c05fabc743d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/9a0dc59dc9794cbdb90a8e22e75bdd25/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/9ce1e9cbda250b50832bedd1a65890f7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/42657c4a6c0fce6a8e2bd93416751e10/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/85605b2c2a8eef0bb2ebd78f82837d33/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-database-collection:16.0.1] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-database-collection-16.0.1.aar/dadd9066ea5578484490f74d2de0a67f/AndroidManifest.xml:2:1-7:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/f1a845a771fa2dd4fc0b9876623d09c8/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/292c002bf9a99890d9109f8b858932da/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/9dfafd1c50d083da354a3dbed9c6c71c/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/337ab3ba4fa38cdda52e8e6c6a99d37f/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/dylanwright/git/utdHonours/mhairi-firebase/honours_proj/Honours_proj/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /home/dylanwright/git/utdHonours/mhairi-firebase/honours_proj/Honours_proj/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /home/dylanwright/git/utdHonours/mhairi-firebase/honours_proj/Honours_proj/app/src/main/AndroidManifest.xml:2:1-34:12
+	package
+		ADDED from /home/dylanwright/git/utdHonours/mhairi-firebase/honours_proj/Honours_proj/app/src/main/AndroidManifest.xml:3:5-53
+		INJECTED from /home/dylanwright/git/utdHonours/mhairi-firebase/honours_proj/Honours_proj/app/src/main/AndroidManifest.xml
+		INJECTED from /home/dylanwright/git/utdHonours/mhairi-firebase/honours_proj/Honours_proj/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/dylanwright/git/utdHonours/mhairi-firebase/honours_proj/Honours_proj/app/src/main/AndroidManifest.xml
+		ADDED from /home/dylanwright/git/utdHonours/mhairi-firebase/honours_proj/Honours_proj/app/src/main/AndroidManifest.xml:2:1-34:12
+		INJECTED from /home/dylanwright/git/utdHonours/mhairi-firebase/honours_proj/Honours_proj/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/dylanwright/git/utdHonours/mhairi-firebase/honours_proj/Honours_proj/app/src/main/AndroidManifest.xml
+		ADDED from /home/dylanwright/git/utdHonours/mhairi-firebase/honours_proj/Honours_proj/app/src/main/AndroidManifest.xml:2:1-34:12
+		INJECTED from /home/dylanwright/git/utdHonours/mhairi-firebase/honours_proj/Honours_proj/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/dylanwright/git/utdHonours/mhairi-firebase/honours_proj/Honours_proj/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /home/dylanwright/git/utdHonours/mhairi-firebase/honours_proj/Honours_proj/app/src/main/AndroidManifest.xml:5:5-32:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/233eb66b6f7b4329207e69856cc26704/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/233eb66b6f7b4329207e69856cc26704/AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-database:16.1.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-database-16.1.0.aar/543ce747cf3e8e20cf8711eaab3a1fc8/AndroidManifest.xml:28:5-34:19
+MERGED from [com.google.firebase:firebase-database:16.1.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-database-16.1.0.aar/543ce747cf3e8e20cf8711eaab3a1fc8/AndroidManifest.xml:28:5-34:19
+MERGED from [com.google.firebase:firebase-core:16.0.7] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.7.aar/1873cf31a8f4a4b7749d4f0b0fe03afd/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:16.0.7] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.7.aar/1873cf31a8f4a4b7749d4f0b0fe03afd/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.5] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.5.aar/2ee3cf66d07467c6ad0ebb7aa9752f23/AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.5] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.5.aar/2ee3cf66d07467c6ad0ebb7aa9752f23/AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-analytics:16.3.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.3.0.aar/6ce2593c0f7499d1815f0608667b2215/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-analytics:16.3.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.3.0.aar/6ce2593c0f7499d1815f0608667b2215/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.3.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-16.3.0.aar/1b9df105e048b525e3f5ef7b6d11f032/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.3.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-16.3.0.aar/1b9df105e048b525e3f5ef7b6d11f032/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.3.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.3.0.aar/80f8b6c15cefb0e400753201a85539e8/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.3.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.3.0.aar/80f8b6c15cefb0e400753201a85539e8/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/847230cbe168f7622131eb82f9c43612/AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/847230cbe168f7622131eb82f9c43612/AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.1.aar/28792dac59b3b04a23b4867b1fc508f9/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.1.aar/28792dac59b3b04a23b4867b1fc508f9/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/39925e5c7a9e5a9c4472091215789007/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/39925e5c7a9e5a9c4472091215789007/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-common:16.1.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-common-16.1.0.aar/7f7f0680830ee0efa20f513d2cd81678/AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-common:16.1.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-common-16.1.0.aar/7f7f0680830ee0efa20f513d2cd81678/AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/70ebd265a82fd0cb158af7c50716213c/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/70ebd265a82fd0cb158af7c50716213c/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:16.3.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.3.0.aar/2dda26b149fd4e169dd46977d08f474b/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:16.3.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.3.0.aar/2dda26b149fd4e169dd46977d08f474b/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/682d2224582bec5de1ee618ec4960a42/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/682d2224582bec5de1ee618ec4960a42/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-17.0.1.aar/25c2f05988d5c5385f3608988c65975a/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-17.0.1.aar/25c2f05988d5c5385f3608988c65975a/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-16.0.0.aar/3f1f90ef195c46ae030b13c714a70734/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-16.0.0.aar/3f1f90ef195c46ae030b13c714a70734/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/2f1c0fc569fac881c7c3c7df94914214/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/2f1c0fc569fac881c7c3c7df94914214/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.volley:volley:1.1.1] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/volley-1.1.1.aar/6133e36ab85c87a2827ba989a4b4f18a/AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.1.1] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/volley-1.1.1.aar/6133e36ab85c87a2827ba989a4b4f18a/AndroidManifest.xml:9:5-20
+	android:supportsRtl
+		ADDED from /home/dylanwright/git/utdHonours/mhairi-firebase/honours_proj/Honours_proj/app/src/main/AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from /home/dylanwright/git/utdHonours/mhairi-firebase/honours_proj/Honours_proj/app/src/main/AndroidManifest.xml:8:9-25
+	android:roundIcon
+		ADDED from /home/dylanwright/git/utdHonours/mhairi-firebase/honours_proj/Honours_proj/app/src/main/AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from /home/dylanwright/git/utdHonours/mhairi-firebase/honours_proj/Honours_proj/app/src/main/AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from /home/dylanwright/git/utdHonours/mhairi-firebase/honours_proj/Honours_proj/app/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /home/dylanwright/git/utdHonours/mhairi-firebase/honours_proj/Honours_proj/app/src/main/AndroidManifest.xml:11:9-40
+activity#com.example.mhairistewart.honours_proj.LanguageActivity
+ADDED from /home/dylanwright/git/utdHonours/mhairi-firebase/honours_proj/Honours_proj/app/src/main/AndroidManifest.xml:12:9-21:20
+	android:label
+		ADDED from /home/dylanwright/git/utdHonours/mhairi-firebase/honours_proj/Honours_proj/app/src/main/AndroidManifest.xml:14:13-60
+	android:theme
+		ADDED from /home/dylanwright/git/utdHonours/mhairi-firebase/honours_proj/Honours_proj/app/src/main/AndroidManifest.xml:15:13-56
+	android:name
+		ADDED from /home/dylanwright/git/utdHonours/mhairi-firebase/honours_proj/Honours_proj/app/src/main/AndroidManifest.xml:13:13-45
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/dylanwright/git/utdHonours/mhairi-firebase/honours_proj/Honours_proj/app/src/main/AndroidManifest.xml:16:13-20:29
+action#android.intent.action.MAIN
+ADDED from /home/dylanwright/git/utdHonours/mhairi-firebase/honours_proj/Honours_proj/app/src/main/AndroidManifest.xml:17:17-69
+	android:name
+		ADDED from /home/dylanwright/git/utdHonours/mhairi-firebase/honours_proj/Honours_proj/app/src/main/AndroidManifest.xml:17:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/dylanwright/git/utdHonours/mhairi-firebase/honours_proj/Honours_proj/app/src/main/AndroidManifest.xml:19:17-77
+	android:name
+		ADDED from /home/dylanwright/git/utdHonours/mhairi-firebase/honours_proj/Honours_proj/app/src/main/AndroidManifest.xml:19:27-74
+activity#com.example.mhairistewart.honours_proj.CategoryActivity
+ADDED from /home/dylanwright/git/utdHonours/mhairi-firebase/honours_proj/Honours_proj/app/src/main/AndroidManifest.xml:22:9-26:20
+	android:label
+		ADDED from /home/dylanwright/git/utdHonours/mhairi-firebase/honours_proj/Honours_proj/app/src/main/AndroidManifest.xml:24:13-60
+	android:theme
+		ADDED from /home/dylanwright/git/utdHonours/mhairi-firebase/honours_proj/Honours_proj/app/src/main/AndroidManifest.xml:25:13-56
+	android:name
+		ADDED from /home/dylanwright/git/utdHonours/mhairi-firebase/honours_proj/Honours_proj/app/src/main/AndroidManifest.xml:23:13-45
+activity#com.example.mhairistewart.honours_proj.QuestionActivity
+ADDED from /home/dylanwright/git/utdHonours/mhairi-firebase/honours_proj/Honours_proj/app/src/main/AndroidManifest.xml:27:9-31:20
+	android:label
+		ADDED from /home/dylanwright/git/utdHonours/mhairi-firebase/honours_proj/Honours_proj/app/src/main/AndroidManifest.xml:29:13-45
+	android:theme
+		ADDED from /home/dylanwright/git/utdHonours/mhairi-firebase/honours_proj/Honours_proj/app/src/main/AndroidManifest.xml:30:13-56
+	android:name
+		ADDED from /home/dylanwright/git/utdHonours/mhairi-firebase/honours_proj/Honours_proj/app/src/main/AndroidManifest.xml:28:13-45
+uses-sdk
+INJECTED from /home/dylanwright/git/utdHonours/mhairi-firebase/honours_proj/Honours_proj/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/dylanwright/git/utdHonours/mhairi-firebase/honours_proj/Honours_proj/app/src/main/AndroidManifest.xml
+INJECTED from /home/dylanwright/git/utdHonours/mhairi-firebase/honours_proj/Honours_proj/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:design:27.1.1] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/2de547f5142b5fff75ab40cd6d90e611/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/2de547f5142b5fff75ab40cd6d90e611/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/3af9a9b3b00337cc2dbae24c2b8fc4c4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/3af9a9b3b00337cc2dbae24c2b8fc4c4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/233eb66b6f7b4329207e69856cc26704/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/233eb66b6f7b4329207e69856cc26704/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database:16.1.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-database-16.1.0.aar/543ce747cf3e8e20cf8711eaab3a1fc8/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-database:16.1.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-database-16.1.0.aar/543ce747cf3e8e20cf8711eaab3a1fc8/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-core:16.0.7] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.7.aar/1873cf31a8f4a4b7749d4f0b0fe03afd/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.7] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.7.aar/1873cf31a8f4a4b7749d4f0b0fe03afd/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.5] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.5.aar/2ee3cf66d07467c6ad0ebb7aa9752f23/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.5] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.5.aar/2ee3cf66d07467c6ad0ebb7aa9752f23/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.3.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.3.0.aar/6ce2593c0f7499d1815f0608667b2215/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.3.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.3.0.aar/6ce2593c0f7499d1815f0608667b2215/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.3.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-16.3.0.aar/1b9df105e048b525e3f5ef7b6d11f032/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.3.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-16.3.0.aar/1b9df105e048b525e3f5ef7b6d11f032/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.3.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.3.0.aar/80f8b6c15cefb0e400753201a85539e8/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.3.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.3.0.aar/80f8b6c15cefb0e400753201a85539e8/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/847230cbe168f7622131eb82f9c43612/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/847230cbe168f7622131eb82f9c43612/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.1.aar/28792dac59b3b04a23b4867b1fc508f9/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.1.aar/28792dac59b3b04a23b4867b1fc508f9/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/39925e5c7a9e5a9c4472091215789007/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/39925e5c7a9e5a9c4472091215789007/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:16.1.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-common-16.1.0.aar/7f7f0680830ee0efa20f513d2cd81678/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:16.1.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-common-16.1.0.aar/7f7f0680830ee0efa20f513d2cd81678/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/70ebd265a82fd0cb158af7c50716213c/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/70ebd265a82fd0cb158af7c50716213c/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.3.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.3.0.aar/2dda26b149fd4e169dd46977d08f474b/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.3.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.3.0.aar/2dda26b149fd4e169dd46977d08f474b/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/682d2224582bec5de1ee618ec4960a42/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/682d2224582bec5de1ee618ec4960a42/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-17.0.1.aar/25c2f05988d5c5385f3608988c65975a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-17.0.1.aar/25c2f05988d5c5385f3608988c65975a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-16.0.0.aar/3f1f90ef195c46ae030b13c714a70734/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-16.0.0.aar/3f1f90ef195c46ae030b13c714a70734/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/2f1c0fc569fac881c7c3c7df94914214/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/2f1c0fc569fac881c7c3c7df94914214/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/2b0db71eb0cdd352165d7f0c94674116/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/2b0db71eb0cdd352165d7f0c94674116/AndroidManifest.xml:20:5-44
+MERGED from [com.android.volley:volley:1.1.1] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/volley-1.1.1.aar/6133e36ab85c87a2827ba989a4b4f18a/AndroidManifest.xml:7:5-43
+MERGED from [com.android.volley:volley:1.1.1] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/volley-1.1.1.aar/6133e36ab85c87a2827ba989a4b4f18a/AndroidManifest.xml:7:5-43
+MERGED from [com.android.support:support-fragment:27.1.1] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/dc6f46b9238c68cb5e0ee7c243cdb47d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/dc6f46b9238c68cb5e0ee7c243cdb47d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/534e81612af969fec406419505176e4d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/534e81612af969fec406419505176e4d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/66591d8b31cf9a6dede96fce8e41118f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/66591d8b31cf9a6dede96fce8e41118f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/32cce69c80c4aa71252f1018f7f4ffee/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/32cce69c80c4aa71252f1018f7f4ffee/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/8fede695b9ea0734d7e22c05fabc743d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/8fede695b9ea0734d7e22c05fabc743d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/9a0dc59dc9794cbdb90a8e22e75bdd25/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/9a0dc59dc9794cbdb90a8e22e75bdd25/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/9ce1e9cbda250b50832bedd1a65890f7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/9ce1e9cbda250b50832bedd1a65890f7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/42657c4a6c0fce6a8e2bd93416751e10/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/42657c4a6c0fce6a8e2bd93416751e10/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/85605b2c2a8eef0bb2ebd78f82837d33/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/85605b2c2a8eef0bb2ebd78f82837d33/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database-collection:16.0.1] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-database-collection-16.0.1.aar/dadd9066ea5578484490f74d2de0a67f/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:16.0.1] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-database-collection-16.0.1.aar/dadd9066ea5578484490f74d2de0a67f/AndroidManifest.xml:5:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/f1a845a771fa2dd4fc0b9876623d09c8/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/f1a845a771fa2dd4fc0b9876623d09c8/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/292c002bf9a99890d9109f8b858932da/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/292c002bf9a99890d9109f8b858932da/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/9dfafd1c50d083da354a3dbed9c6c71c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/9dfafd1c50d083da354a3dbed9c6c71c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/337ab3ba4fa38cdda52e8e6c6a99d37f/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/337ab3ba4fa38cdda52e8e6c6a99d37f/AndroidManifest.xml:20:5-44
+INJECTED from /home/dylanwright/git/utdHonours/mhairi-firebase/honours_proj/Honours_proj/app/src/main/AndroidManifest.xml
+INJECTED from /home/dylanwright/git/utdHonours/mhairi-firebase/honours_proj/Honours_proj/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/dylanwright/git/utdHonours/mhairi-firebase/honours_proj/Honours_proj/app/src/main/AndroidManifest.xml
+		ADDED from /home/dylanwright/git/utdHonours/mhairi-firebase/honours_proj/Honours_proj/app/src/main/AndroidManifest.xml
+		INJECTED from /home/dylanwright/git/utdHonours/mhairi-firebase/honours_proj/Honours_proj/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/dylanwright/git/utdHonours/mhairi-firebase/honours_proj/Honours_proj/app/src/main/AndroidManifest.xml
+		ADDED from /home/dylanwright/git/utdHonours/mhairi-firebase/honours_proj/Honours_proj/app/src/main/AndroidManifest.xml
+		INJECTED from /home/dylanwright/git/utdHonours/mhairi-firebase/honours_proj/Honours_proj/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-database:16.1.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-database-16.1.0.aar/543ce747cf3e8e20cf8711eaab3a1fc8/AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.5] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.5.aar/2ee3cf66d07467c6ad0ebb7aa9752f23/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.5] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.5.aar/2ee3cf66d07467c6ad0ebb7aa9752f23/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.3.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.3.0.aar/6ce2593c0f7499d1815f0608667b2215/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.3.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.3.0.aar/6ce2593c0f7499d1815f0608667b2215/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.3.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.3.0.aar/80f8b6c15cefb0e400753201a85539e8/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.3.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.3.0.aar/80f8b6c15cefb0e400753201a85539e8/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/847230cbe168f7622131eb82f9c43612/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/847230cbe168f7622131eb82f9c43612/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-database:16.1.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-database-16.1.0.aar/543ce747cf3e8e20cf8711eaab3a1fc8/AndroidManifest.xml:25:22-76
+uses-permission#android.permission.INTERNET
+ADDED from [com.google.firebase:firebase-database:16.1.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-database-16.1.0.aar/543ce747cf3e8e20cf8711eaab3a1fc8/AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.5] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.5.aar/2ee3cf66d07467c6ad0ebb7aa9752f23/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.5] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.5.aar/2ee3cf66d07467c6ad0ebb7aa9752f23/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.3.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.3.0.aar/6ce2593c0f7499d1815f0608667b2215/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.3.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.3.0.aar/6ce2593c0f7499d1815f0608667b2215/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.3.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.3.0.aar/80f8b6c15cefb0e400753201a85539e8/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.3.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.3.0.aar/80f8b6c15cefb0e400753201a85539e8/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/847230cbe168f7622131eb82f9c43612/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/847230cbe168f7622131eb82f9c43612/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from [com.google.firebase:firebase-database:16.1.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-database-16.1.0.aar/543ce747cf3e8e20cf8711eaab3a1fc8/AndroidManifest.xml:26:22-64
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-database:16.1.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-database-16.1.0.aar/543ce747cf3e8e20cf8711eaab3a1fc8/AndroidManifest.xml:29:9-33:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.5] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.5.aar/2ee3cf66d07467c6ad0ebb7aa9752f23/AndroidManifest.xml:27:9-31:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.5] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.5.aar/2ee3cf66d07467c6ad0ebb7aa9752f23/AndroidManifest.xml:27:9-31:19
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/847230cbe168f7622131eb82f9c43612/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/847230cbe168f7622131eb82f9c43612/AndroidManifest.xml:29:9-35:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/847230cbe168f7622131eb82f9c43612/AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-database:16.1.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-database-16.1.0.aar/543ce747cf3e8e20cf8711eaab3a1fc8/AndroidManifest.xml:29:18-89
+meta-data#com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar
+ADDED from [com.google.firebase:firebase-database:16.1.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-database-16.1.0.aar/543ce747cf3e8e20cf8711eaab3a1fc8/AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.firebase:firebase-database:16.1.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-database-16.1.0.aar/543ce747cf3e8e20cf8711eaab3a1fc8/AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-database:16.1.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-database-16.1.0.aar/543ce747cf3e8e20cf8711eaab3a1fc8/AndroidManifest.xml:31:17-109
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.5] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.5.aar/2ee3cf66d07467c6ad0ebb7aa9752f23/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.3.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.3.0.aar/6ce2593c0f7499d1815f0608667b2215/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.3.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.3.0.aar/6ce2593c0f7499d1815f0608667b2215/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.3.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.3.0.aar/80f8b6c15cefb0e400753201a85539e8/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.3.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.3.0.aar/80f8b6c15cefb0e400753201a85539e8/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/847230cbe168f7622131eb82f9c43612/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/847230cbe168f7622131eb82f9c43612/AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.5] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.5.aar/2ee3cf66d07467c6ad0ebb7aa9752f23/AndroidManifest.xml:24:22-65
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.5] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.5.aar/2ee3cf66d07467c6ad0ebb7aa9752f23/AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.5] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.5.aar/2ee3cf66d07467c6ad0ebb7aa9752f23/AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.5] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.5.aar/2ee3cf66d07467c6ad0ebb7aa9752f23/AndroidManifest.xml:29:17-139
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.firebase:firebase-analytics:16.3.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.3.0.aar/6ce2593c0f7499d1815f0608667b2215/AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.3.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.3.0.aar/80f8b6c15cefb0e400753201a85539e8/AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.3.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.3.0.aar/80f8b6c15cefb0e400753201a85539e8/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.3.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.3.0.aar/6ce2593c0f7499d1815f0608667b2215/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.3.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.3.0.aar/6ce2593c0f7499d1815f0608667b2215/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.3.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.3.0.aar/6ce2593c0f7499d1815f0608667b2215/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.3.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.3.0.aar/6ce2593c0f7499d1815f0608667b2215/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.3.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.3.0.aar/6ce2593c0f7499d1815f0608667b2215/AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.3.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.3.0.aar/6ce2593c0f7499d1815f0608667b2215/AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.3.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.3.0.aar/80f8b6c15cefb0e400753201a85539e8/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.3.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.3.0.aar/80f8b6c15cefb0e400753201a85539e8/AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.3.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.3.0.aar/6ce2593c0f7499d1815f0608667b2215/AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.3.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.3.0.aar/6ce2593c0f7499d1815f0608667b2215/AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.3.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.3.0.aar/6ce2593c0f7499d1815f0608667b2215/AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.3.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.3.0.aar/6ce2593c0f7499d1815f0608667b2215/AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.3.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.3.0.aar/6ce2593c0f7499d1815f0608667b2215/AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.3.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.3.0.aar/6ce2593c0f7499d1815f0608667b2215/AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.3.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.3.0.aar/6ce2593c0f7499d1815f0608667b2215/AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:16.3.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.3.0.aar/6ce2593c0f7499d1815f0608667b2215/AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.3.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.3.0.aar/6ce2593c0f7499d1815f0608667b2215/AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.3.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.3.0.aar/6ce2593c0f7499d1815f0608667b2215/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.3.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.3.0.aar/6ce2593c0f7499d1815f0608667b2215/AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:16.3.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.3.0.aar/6ce2593c0f7499d1815f0608667b2215/AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.3.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.3.0.aar/6ce2593c0f7499d1815f0608667b2215/AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.3.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.3.0.aar/6ce2593c0f7499d1815f0608667b2215/AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.3.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.3.0.aar/6ce2593c0f7499d1815f0608667b2215/AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.3.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.3.0.aar/6ce2593c0f7499d1815f0608667b2215/AndroidManifest.xml:49:13-87
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/847230cbe168f7622131eb82f9c43612/AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/847230cbe168f7622131eb82f9c43612/AndroidManifest.xml:26:22-79
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/847230cbe168f7622131eb82f9c43612/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/847230cbe168f7622131eb82f9c43612/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/847230cbe168f7622131eb82f9c43612/AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/847230cbe168f7622131eb82f9c43612/AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/847230cbe168f7622131eb82f9c43612/AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/847230cbe168f7622131eb82f9c43612/AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/847230cbe168f7622131eb82f9c43612/AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/847230cbe168f7622131eb82f9c43612/AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/847230cbe168f7622131eb82f9c43612/AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/847230cbe168f7622131eb82f9c43612/AndroidManifest.xml:42:25-78
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/847230cbe168f7622131eb82f9c43612/AndroidManifest.xml:50:9-56:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/847230cbe168f7622131eb82f9c43612/AndroidManifest.xml:52:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/847230cbe168f7622131eb82f9c43612/AndroidManifest.xml:51:13-77
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/847230cbe168f7622131eb82f9c43612/AndroidManifest.xml:53:13-55:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/847230cbe168f7622131eb82f9c43612/AndroidManifest.xml:53:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/847230cbe168f7622131eb82f9c43612/AndroidManifest.xml:54:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/847230cbe168f7622131eb82f9c43612/AndroidManifest.xml:54:25-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/39925e5c7a9e5a9c4472091215789007/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/39925e5c7a9e5a9c4472091215789007/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/39925e5c7a9e5a9c4472091215789007/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/39925e5c7a9e5a9c4472091215789007/AndroidManifest.xml:24:13-79
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:16.1.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-common-16.1.0.aar/7f7f0680830ee0efa20f513d2cd81678/AndroidManifest.xml:12:9-16:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:16.1.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-common-16.1.0.aar/7f7f0680830ee0efa20f513d2cd81678/AndroidManifest.xml:14:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:16.1.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-common-16.1.0.aar/7f7f0680830ee0efa20f513d2cd81678/AndroidManifest.xml:15:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:16.1.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-common-16.1.0.aar/7f7f0680830ee0efa20f513d2cd81678/AndroidManifest.xml:16:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:16.1.0] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/firebase-common-16.1.0.aar/7f7f0680830ee0efa20f513d2cd81678/AndroidManifest.xml:13:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:16.0.1] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/2f1c0fc569fac881c7c3c7df94914214/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/2f1c0fc569fac881c7c3c7df94914214/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] /home/dylanwright/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/2f1c0fc569fac881c7c3c7df94914214/AndroidManifest.xml:24:13-58

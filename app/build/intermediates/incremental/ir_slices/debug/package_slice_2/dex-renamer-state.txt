@@ -1,0 +1,4 @@
+#Mon Mar 11 15:07:34 GMT 2019
+base.0=/home/dylanwright/git/utdHonours/mhairi-firebase/honours_proj/Honours_proj/app/build/intermediates/transforms/dexMerger/debug/2
+path.0=classes.dex
+renamed.0=classes.dex
