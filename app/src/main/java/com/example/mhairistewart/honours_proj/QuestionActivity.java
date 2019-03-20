@@ -15,8 +15,6 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 import java.util.concurrent.ExecutionException;
-
-import model.Category;
 import model.Question;
 
 public class QuestionActivity extends AppCompatActivity {
@@ -71,7 +69,7 @@ public class QuestionActivity extends AppCompatActivity {
                 button.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-                        Intent intent = new Intent(view.getContext(), QuestionActivity.class);
+                        Intent intent = new Intent(view.getContext(), AnswerActivity.class);
 
                         Bundle args = new Bundle();
                         args.putString("question", String.valueOf(q.getQuestion()));

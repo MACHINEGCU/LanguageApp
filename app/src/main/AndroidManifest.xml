@@ -29,6 +29,11 @@
             android:label="QuestionActivity"
             android:theme="@style/AppTheme.NoActionBar">
         </activity>
+        <activity
+            android:name=".AnswerActivity"
+            android:label="AnswerActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
     </application>
 
 </manifest>
