@@ -9,26 +9,31 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import java.util.List;
 
+import model.Answer;
+
 
 public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
-    private List<String> mDataset;
+    private List<Answer> myDataset;
     private Context context;
 
 
     public static class MyViewHolder extends RecyclerView.ViewHolder {
 
         public TextView textView;
+        public TextView subTextView;
         public RelativeLayout parentLayout;
 
         public MyViewHolder(View v) {
             super(v);
             textView = v.findViewById(R.id.title);
+            subTextView = v.findViewById(R.id.subtitle);
+
             parentLayout = v.findViewById(R.id.parent_layout);
         }
     }
 
-    public MyAdapter(List<String> myDataset, Context context) {
-        this.mDataset = myDataset;
+    public MyAdapter(List<Answer> myDataset, Context context) {
+        this.myDataset = myDataset;
         this.context = context;
 
     }
@@ -50,14 +55,15 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
     @Override
     public void onBindViewHolder(MyViewHolder holder, int position) {
 
-        String s = mDataset.get(position);
-        TextView textView = holder.textView;
-        textView.setText(s);
+        Answer answerPosition = myDataset.get(position);
 
+        holder.subTextView.setText(answerPosition.getSubTitle());
+        holder.textView.setText(answerPosition.getAnswerDescription());
+        
     }
 
     @Override
     public int getItemCount() {
-        return mDataset.size();
+        return myDataset.size();
     }
 }

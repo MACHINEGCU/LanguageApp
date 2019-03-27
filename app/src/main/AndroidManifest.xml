@@ -30,8 +30,8 @@
             android:theme="@style/AppTheme.NoActionBar">
         </activity>
         <activity
-            android:name=".AnswerActivity"
-            android:label="AnswerActivity"
+            android:name=".AnswersActivity"
+            android:label="AnswersActivity"
             android:theme="@style/AppTheme.NoActionBar">
         </activity>
     </application>

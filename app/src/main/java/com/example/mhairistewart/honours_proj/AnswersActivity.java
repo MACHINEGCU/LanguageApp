@@ -5,9 +5,17 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
+import android.view.View;
+import android.widget.Adapter;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.ListAdapter;
+import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
 
+import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -16,13 +24,15 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.concurrent.ExecutionException;
 import model.Answer;
+import model.Answer;
 
 
-public class AnswerActivity extends AppCompatActivity {
+public class AnswersActivity extends AppCompatActivity {
 
+    public ListView listView;
     private RecyclerView recyclerView;
     private RecyclerView.Adapter mAdapter;
-    private List<String> myDataset = new ArrayList<String>();
+    private ArrayList<String> myDataset = new ArrayList<String>();
     private String question;
     private RecyclerView.LayoutManager layoutManager;
 
@@ -30,18 +40,15 @@ public class AnswerActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_answer);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
-
+        setContentView(R.layout.activity_answers);
         Bundle extras = getIntent().getExtras();
         question = extras.getString("question");
 
-        createRecyclerDataset();
+        createDataset();
 
     }
 
-    public void createRecyclerDataset() {
+    public void createDataset() {
 
         recyclerView = (RecyclerView) findViewById(R.id.my_recycler_view);
 
@@ -50,8 +57,7 @@ public class AnswerActivity extends AppCompatActivity {
         recyclerView.setLayoutManager(layoutManager);
 
 
-
-        String myUrl = "https://mhairi-honours-334af.firebaseio.com/answers.json?orderBy=" + "\"Question\"" + "&equalTo=" + "\"" + question + "\"";
+        String myUrl = "https://mhairi-honours-334af.firebaseio.com/longAnswers.json?orderBy=" + "\"question\"" + "&equalTo=" + "\"" + question + "\"";
 
         String result = "";
         HttpRequest request = new HttpRequest();
@@ -65,39 +71,38 @@ public class AnswerActivity extends AppCompatActivity {
         JSONObject json = null;
         try {
             json = new JSONObject(result);
+
         } catch (JSONException e) {
             e.printStackTrace();
         }
 
-//        final Answer a = new Answer();
+        List<Answer> answerList = new ArrayList<>();
+        List<TextView> subTitleList = new ArrayList<>();
 
         for (Iterator<String> it = json.keys(); it.hasNext(); ) {
-
-            final Answer a = new Answer();
             String key = it.next();
-            System.out.println(key);
             try {
-                a.setCategory(json.getJSONObject(String.valueOf(key)).getString("Category"));
-                a.setId(json.getJSONObject(String.valueOf(key)).getInt("ID"));
-                a.setQuestion(json.getJSONObject(String.valueOf(key)).getString("Question"));
-                a.setLanguage(json.getJSONObject(String.valueOf(key)).getString("Language"));
-                a.setAnswer(json.getJSONObject(String.valueOf(key)).getString("Answer"));
 
-                myDataset.add(a.getAnswer());
+                JSONObject responseObject = (JSONObject) json.get(key);
+                JSONArray answersArray = (JSONArray) responseObject.get("answers");
+
+                for (int i = 0; i < answersArray.length(); i++) {
+
+                    JSONObject answer = (JSONObject) answersArray.get(i);
+                    Answer a = new Answer();
+                    a.setAnswerDescription(answer.get("answerDescription").toString());
+                    a.setSubTitle(answer.get("subTitle").toString());
+                    answerList.add(a);
+
+                }
 
             } catch (JSONException e) {
                 e.printStackTrace();
             }
         }
 
-        mAdapter = new MyAdapter(myDataset, this);
+        mAdapter = new MyAdapter(answerList, this);
         recyclerView.setAdapter(mAdapter);
-//        TextView t = findViewById(R.id.answer);
-//        t.setText("The Answer is: " + a.getAnswer());
+
     }
-
-
-
-
-
 }

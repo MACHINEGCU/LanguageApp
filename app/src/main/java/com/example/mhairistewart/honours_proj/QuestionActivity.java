@@ -69,7 +69,7 @@ public class QuestionActivity extends AppCompatActivity {
                 button.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-                        Intent intent = new Intent(view.getContext(), AnswerActivity.class);
+                        Intent intent = new Intent(view.getContext(), AnswersActivity.class);
 
                         Bundle args = new Bundle();
                         args.putString("question", String.valueOf(q.getQuestion()));

@@ -1008,6 +1008,7 @@ id start
 id status_bar_latest_event_content
 id submenuarrow
 id submit_area
+id subtitle
 id tabMode
 id tag_transition_group
 id text
@@ -1078,9 +1079,11 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_answer
+layout activity_answers
 layout activity_category
 layout activity_language
 layout activity_question
+layout content_answers
 layout content_category
 layout content_language
 layout content_question

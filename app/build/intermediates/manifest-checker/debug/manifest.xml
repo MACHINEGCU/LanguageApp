@@ -46,8 +46,8 @@
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
         <activity
-            android:name="com.example.mhairistewart.honours_proj.AnswerActivity"
-            android:label="AnswerActivity"
+            android:name="com.example.mhairistewart.honours_proj.AnswersActivity"
+            android:label="AnswersActivity"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
 

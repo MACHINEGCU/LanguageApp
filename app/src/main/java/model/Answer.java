@@ -1,49 +1,22 @@
 package model;
 
+import java.util.Collections;
+import java.util.List;
+
 public class Answer {
 
-    private int id;
-    private String language;
-    private String category;
     private String question;
-    private String answer;
-    private String subAnswer;
-    private String additionalInfoOne;
-    private String additionalInfoTwo;
-    private String additionalInfoThree;
+    private String answerDescription;
+
+
+    private String subTitle;
+
 
     public Answer() { }
 
-    public Answer(int id, String language, String category, String question, String answer) {
-        this.id = id;
-        this.language = language;
-        this.category = category;
+    public Answer(String question,  String answerDescription) {
         this.question = question;
-        this.answer = answer;
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    public String getLanguage() {
-        return language;
-    }
-
-    public void setLanguage(String language) {
-        this.language = language;
-    }
-
-    public String getCategory() {
-        return category;
-    }
-
-    public void setCategory(String category) {
-        this.category = category;
+        this.answerDescription = answerDescription;
     }
 
     public String getQuestion() {
@@ -54,53 +27,20 @@ public class Answer {
         this.question = question;
     }
 
-    public String getAnswer() {
-        return answer;
+    public String getAnswerDescription() {
+        return answerDescription;
     }
 
-    public void setAnswer(String answer) {
-        this.answer = answer;
+    public void setAnswerDescription(String answerDescription) {
+        this.answerDescription = answerDescription;
     }
 
-    public String getSubAnswer() {
-        return subAnswer;
+    public String getSubTitle() {
+        return subTitle;
     }
 
-    public void setSubAnswer(String subAnswer) {
-        this.subAnswer = subAnswer;
+    public void setSubTitle(String subTitle) {
+        this.subTitle = subTitle;
     }
 
-    public String getAdditionalInfoOne() {
-        return additionalInfoOne;
-    }
-
-    public void setAdditionalInfoOne(String additionalInfoOne) {
-        this.additionalInfoOne = additionalInfoOne;
-    }
-
-    public String getAdditionalInfoTwo() {
-        return additionalInfoTwo;
-    }
-
-    public void setAdditionalInfoTwo(String additionalInfoTwo) {
-        this.additionalInfoTwo = additionalInfoTwo;
-    }
-
-    public String getAdditionalInfoThree() {
-        return additionalInfoThree;
-    }
-
-    public void setAdditionalInfoThree(String additionalInfoThree) {
-        this.additionalInfoThree = additionalInfoThree;
-    }
-
-    public String getAdditionalInfoFour() {
-        return additionalInfoFour;
-    }
-
-    public void setAdditionalInfoFour(String additionalInfoFour) {
-        this.additionalInfoFour = additionalInfoFour;
-    }
-
-    private String additionalInfoFour;
 }
