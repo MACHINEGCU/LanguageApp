@@ -28,7 +28,7 @@
         android:theme="@style/AppTheme" >
         <activity
             android:name="com.example.mhairistewart.honours_proj.LanguageActivity"
-            android:label="@string/title_activity_language"
+            android:label="Home"
             android:theme="@style/AppTheme.NoActionBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -38,17 +38,16 @@
         </activity>
         <activity
             android:name="com.example.mhairistewart.honours_proj.CategoryActivity"
-            android:label="@string/title_activity_category"
+            android:label="Categories"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
         <activity
             android:name="com.example.mhairistewart.honours_proj.QuestionActivity"
-            android:label="QuestionActivity"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
         <activity
             android:name="com.example.mhairistewart.honours_proj.AnswersActivity"
-            android:label="AnswersActivity"
+            android:label="Answer"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
 
@@ -125,11 +124,6 @@
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
-
-        <provider
-            android:name="com.android.tools.ir.server.InstantRunContentProvider"
-            android:authorities="com.example.mhairistewart.honours_proj.com.android.tools.ir.server.InstantRunContentProvider"
-            android:multiprocess="true" />
     </application>
 
 </manifest>

@@ -11,7 +11,7 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".LanguageActivity"
-            android:label="@string/title_activity_language"
+            android:label="Home"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,17 +21,16 @@
         </activity>
         <activity
             android:name=".CategoryActivity"
-            android:label="@string/title_activity_category"
+            android:label="Categories"
             android:theme="@style/AppTheme.NoActionBar">
         </activity>
         <activity
             android:name=".QuestionActivity"
-            android:label="QuestionActivity"
             android:theme="@style/AppTheme.NoActionBar">
         </activity>
         <activity
             android:name=".AnswersActivity"
-            android:label="AnswersActivity"
+            android:label="Answer"
             android:theme="@style/AppTheme.NoActionBar">
         </activity>
     </application>

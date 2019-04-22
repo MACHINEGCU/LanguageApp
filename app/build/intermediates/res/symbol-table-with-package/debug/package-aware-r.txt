@@ -954,6 +954,7 @@ id notification_background
 id notification_main_column
 id notification_main_column_container
 id packed
+id pageTitle
 id parallax
 id parent
 id parentPanel

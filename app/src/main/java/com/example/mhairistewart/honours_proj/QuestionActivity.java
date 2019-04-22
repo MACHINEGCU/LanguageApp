@@ -1,6 +1,7 @@
 package com.example.mhairistewart.honours_proj;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
@@ -15,21 +16,38 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 import java.util.concurrent.ExecutionException;
+
 import model.Question;
 
 public class QuestionActivity extends AppCompatActivity {
+
+    private String category;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_question);
+
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                onBackPressed();
+            }
+        });
 
         Bundle extras = getIntent().getExtras();
-        LinearLayout layout = findViewById(R.id.questionLayout);
+        category = extras.getString("category");
+        getSupportActionBar().setTitle(category);
 
-        String category = extras.getString("category");
+        createDataSet();
+    }
+
+    public void createDataSet() {
+
+        LinearLayout layout = findViewById(R.id.questionLayout);
 
         String myUrl = "https://mhairi-honours-334af.firebaseio.com/question.json?orderBy=" + "\"Category\"" + "&equalTo=" + "\"" + category + "\"";
 
@@ -49,14 +67,13 @@ public class QuestionActivity extends AppCompatActivity {
             e.printStackTrace();
         }
 
-
         final List<Question> categories = new ArrayList<>();
         ArrayList<Button> buttons = new ArrayList<>();
 
 
-
         for (Iterator<String> it = json.keys(); it.hasNext(); ) {
             final Button button = new Button(this);
+            button.setTextColor(Color.parseColor("#3F51B5"));
             final Question q = new Question();
             String key = it.next();
             System.out.println(key);

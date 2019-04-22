@@ -1,6 +1,7 @@
 package com.example.mhairistewart.honours_proj;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
@@ -20,15 +21,31 @@ import model.Category;
 
 public class CategoryActivity extends AppCompatActivity {
 
+    public String language;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_category);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                onBackPressed();
+            }
+        });
 
         Bundle extras = getIntent().getExtras();
-        String language = extras.getString("language");
+        language = extras.getString("language");
+        createDataset();
+
+
+    }
+
+    public void createDataset() {
 
         LinearLayout layout = findViewById(R.id.categoryLayout);
 
@@ -70,10 +87,6 @@ public class CategoryActivity extends AppCompatActivity {
 
                     try {
                         c.setCategory(json.getJSONObject(String.valueOf(counter)).getString("Category"));
-                    } catch (JSONException e) {
-                        e.printStackTrace();
-                    }
-                    try {
                         c.setId(json.getJSONObject(String.valueOf(counter)).getInt("ID"));
                     } catch (JSONException e) {
                         e.printStackTrace();
@@ -81,6 +94,7 @@ public class CategoryActivity extends AppCompatActivity {
 
                     c.setLanguage(json.getJSONObject(String.valueOf(counter)).getString("Language"));
                     final Button button = new Button(this);
+                    button.setTextColor(Color.parseColor("#3F51B5"));
                     button.setOnClickListener(new View.OnClickListener() {
                         @Override
                         public void onClick(View view) {
@@ -93,6 +107,7 @@ public class CategoryActivity extends AppCompatActivity {
                             startActivity(intent);
                         }
                     });
+
                     button.setText(c.getCategory());
                     buttons.add(button);
                     layout.addView(button);
@@ -109,5 +124,5 @@ public class CategoryActivity extends AppCompatActivity {
 
 
         }
-
-    }}
+    }
+}

@@ -1,16 +1,10 @@
 package model;
 
-import java.util.Collections;
-import java.util.List;
-
 public class Answer {
 
     private String question;
     private String answerDescription;
-
-
     private String subTitle;
-
 
     public Answer() { }
 

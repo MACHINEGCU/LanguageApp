@@ -7,6 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+
 import java.util.List;
 
 import model.Answer;
@@ -16,12 +17,11 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
     private List<Answer> myDataset;
     private Context context;
 
-
     public static class MyViewHolder extends RecyclerView.ViewHolder {
 
-        public TextView textView;
-        public TextView subTextView;
-        public RelativeLayout parentLayout;
+        private TextView textView;
+        private TextView subTextView;
+        private RelativeLayout parentLayout;
 
         public MyViewHolder(View v) {
             super(v);
@@ -59,7 +59,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
 
         holder.subTextView.setText(answerPosition.getSubTitle());
         holder.textView.setText(answerPosition.getAnswerDescription());
-        
+
     }
 
     @Override
